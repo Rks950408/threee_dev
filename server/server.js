@@ -79,7 +79,8 @@ if (!fs.existsSync(contentFilePath)) {
 
 // MongoDB URI and connection
 const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/threedegree";
+  process.env.MONGODB_URI ||
+  "mongodb+srv://rahuldev950408:32caKWjM5A0aorJu@tourtravels.t8c5bbx.mongodb.net/?retryWrites=true&w=majority&appName=tourtravels";
 const PORT = process.env.PORT || 5001;
 
 // Connect to MongoDB and start the server
