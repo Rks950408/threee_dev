@@ -1,0 +1,2 @@
+JWT_SECRET=yourSuperSecretKey
+JWT_EXPIRE=1d
